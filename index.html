@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS Music Platform</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #121212; color: #fff; padding: 40px; }
+        h1 { margin-bottom: 5px; color: #00ff88; }
+        .subtitle { color: #888; margin-bottom: 30px; }
+        .controls { margin-bottom: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(16, 45px); gap: 6px; background: #1a1a1a; padding: 15px; border-radius: 8px; border: 1px solid #2a2a2a; width: max-content; }
+        .note-btn { width: 45px; height: 45px; background: #262626; border: 1px solid #3a3a3a; border-radius: 6px; cursor: pointer; transition: all 0.1s ease; }
+        .note-btn:hover { background: #333; border-color: #555; }
+        .note-btn.active { background: #00ff88; border-color: #00ff88; box-shadow: 0 0 10px rgba(0, 255, 136, 0.3); }
+        .note-btn.playing { border-color: #ff0077; background: #3a1c2a; }
+        .note-btn.active.playing { background: #fff; border-color: #ff0077; box-shadow: 0 0 15px #ff0077; }
+        button#start-btn { padding: 12px 24px; font-size: 1rem; font-weight: 600; background: #007acc; color: white; border: none; border-radius: 6px; cursor: pointer; transition: background 0.2s; }
+        button#start-btn:hover { background: #0098ff; }
+        button#start-btn.active { background: #e03131; }
+    </style>
+</head>
+<body>
+    <h1>CS Music Platform</h1>
+    <div class="subtitle">Tier 1: High-Precision Web Audio Scheduler</div>
+    
+    <div class="controls">
+        <button id="start-btn">Start Engine</button>
+    </div>
+    
+    <div id="sequencer-grid" class="grid"></div>
+
+    <!-- Ensure this filename matches your JavaScript file exactly -->
+    <script src="app.js"></script>
+</body>
+</html>
