@@ -35,3 +35,21 @@ Since the project uses standard web API components, you can run it instantly wit
 1. Clone this repository to your machine:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/cs-music-platform.git](https://github.com/YOUR_USERNAME/cs-music-platform.git)
+   
+2. Navigate into the project folder:
+   ```Bash
+   cd cs-music-platform
+   
+3. Open `index.html` directly in any modern browser (Chrome, Edge, Safari, or Firefox), or spin up a quick local development server using Python:
+   ```bash
+   python3 -m http.server 8000
+
+4. Click "Start / Stop Engine" and toggle the grid cells to build a melody.
+---
+
+### What to do after pasting:
+1. Scroll down to the bottom of the page to the **Commit changes...** box.
+2. In the commit message box, you can leave it as the default text `"Create README.md"` or change it to `"docs: initialize portfolio README layout"`.
+3. Click the green **Commit changes** button. 
+
+Once you do that, your repository home page will immediately display this organized layout! Let me know when you've got it saved and want to start mapping out the Python backend configuration.
